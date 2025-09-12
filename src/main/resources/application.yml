@@ -1,0 +1,7 @@
+server:
+  port: 8090
+
+validation:
+  api:
+    base-url: "http://localhost:8080"  # Override default URL
+    api-key: "0f1ac60dc2494794aec9b594a455b1ad"
