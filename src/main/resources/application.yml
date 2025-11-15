@@ -1,7 +1,9 @@
 server:
   port: 8090
 
-validation:
+verifnow:
   api:
-    base-url: "http://localhost:8080"  # Override default URL
-    api-key: "0f1ac60dc2494794aec9b594a455b1ad"
+    # Can be overridden via environment variables VERIFNOW_BASE_URL and VERIFNOW_API_KEY
+    # Defaults to the public API URL; API key has no default and must be provided.
+    base-url: ${VERIFNOW_BASE_URL:https://api.verifnow.io}
+    api-key: ${VERIFNOW_API_KEY:}

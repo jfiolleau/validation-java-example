@@ -1,14 +1,14 @@
 package com.example.dto;
 
-import com.idjea.validation.spring.annotations.RemoteEmail;
-import com.idjea.validation.spring.annotations.RemotePhone;
+import com.idjea.verifnow.spring.annotations.VerifNowEmail;
+import com.idjea.verifnow.spring.annotations.VerifNowPhone;
 
 public class UserDto {
 
-  @RemoteEmail
+  @VerifNowEmail
   private String email;
 
-//  @RemotePhone
+  @VerifNowPhone
   private String phone;
 
   // getters & setters
