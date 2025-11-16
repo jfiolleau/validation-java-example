@@ -1,7 +1,7 @@
 package com.example.dto;
 
-import com.idjea.verifnow.spring.annotations.VerifNowEmail;
-import com.idjea.verifnow.spring.annotations.VerifNowPhone;
+import io.verifnow.spring.annotations.VerifNowEmail;
+import io.verifnow.spring.annotations.VerifNowPhone;
 
 public class UserDto {
 
