@@ -17,4 +17,5 @@ out/
 .env
 *.env
 .env.local
+application-localhost.yml
 
