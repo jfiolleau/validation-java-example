@@ -5,7 +5,7 @@ import io.verifnow.spring.annotations.VerifNowPhone;
 
 public class UserDto {
 
-  @VerifNowEmail
+  @VerifNowEmail(maxRiskScore = 30)
   private String email;
 
   @VerifNowPhone
